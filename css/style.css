@@ -10,12 +10,19 @@
 }
 
 [data-theme="light"] {
-    --bg-inner: #ffffff;
-    --bg-outer: #f4f4f0;
-    --accent: #6b8a7d;
-    --text: #1a1a1a;
-    --text-dim: #666;
-    --border: rgba(0,0,0,0.06);
+    /* Background: Warna abu-abu hangat yang sangat diredam (Muted Stone) */
+    --bg-inner: #E5E5E2; 
+    --bg-outer: #DCDCD8; 
+    
+    /* Aksen: Hijau Moss/Olive tua yang tenang (Deep Forest) */
+    --accent: #4A5D54; 
+    
+    /* Teks: Abu-abu gelap pekat, bukan hitam, agar kontrasnya lembut */
+    --text: #333330; 
+    --text-dim: #70706B; 
+    
+    /* Border & Glass: Dibuat lebih menyatu dengan background */
+    --border: rgba(0,0,0,0.05);
     --glass: rgba(0,0,0,0.02);
 }
 
@@ -136,14 +143,12 @@ body {
 .about-content h2 { font-size: clamp(2rem, 4vw, 3.5rem); font-family: 'Playfair Display', serif; margin-bottom: 30px; line-height: 1.2; }
 .about-content p { color: var(--text-dim); font-size: 18px; line-height: 1.8; margin-bottom: 25px; }
 .personal-note { padding: 25px; background: var(--glass); border-radius: 15px; border-left: 3px solid var(--accent); margin-top: 40px; font-style: italic; font-size: 16px; }
-
 /* FOOTER */
 .footer { padding: 100px 0 60px; border-top: 1px solid var(--border); background: var(--bg-outer); }
 .footer-content { display: flex; justify-content: space-between; align-items: flex-start; gap: 50px; }
 .f-info h4 { font-size: 20px; letter-spacing: 1px; margin-bottom: 8px; color: var(--text); }
 .footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 25px; max-width: 400px; }
 .f-dedication { font-family: 'Playfair Display', serif; font-style: italic; color: var(--text-dim); text-align: right; font-size: 15px; }
-
 .footer-socials { display: flex; gap: 25px; align-items: center; }
 .footer-socials a { text-decoration: none; color: var(--text-dim); font-size: 20px; transition: var(--transition); }
 .footer-socials a:hover { color: var(--accent); transform: scale(1.1); }
