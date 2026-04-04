@@ -17,7 +17,6 @@ const swipers = new Swiper(".mySwiper", {
     pagination: { el: ".swiper-pagination", clickable: true, dynamicBullets: true },
     navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
 });
-
 // Filter Engine
 const filterBtns = document.querySelectorAll('.filter-btn');
 const projectCards = document.querySelectorAll('.project-card');

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
     <title>Ilham Rohul Fajar | Portfolio 2026</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -22,7 +23,12 @@
                 <button id="theme-toggle" class="theme-btn">
                     <i class="fa-solid fa-moon"></i>
                 </button>
-                <a href="mailto:ilham@example.com" class="btn-contact">LET'S TALK</a>
+                <div class="header-socials">
+                    <a href="https://www.linkedin.com/in/ilham-rohul-fajar-029b822a4/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ilhamrohulfajar" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/ilhamrohulfajar" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/6285693471182" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
             </div>
         </div>
     </nav>
@@ -62,7 +68,7 @@
             <div class="section-header">
                 <div class="title-group">
                     <h2>Selected Works</h2>
-                    <p>Showcasing 6 projects from Desktop to Web Apps.</p>
+                    <p>Click on the preview to watch the project demo on YouTube.</p>
                 </div>
                 <div class="filter-group">
                     <button class="filter-btn active" data-filter="all">All</button>
@@ -74,103 +80,148 @@
             <div class="projects-grid">
                 <div class="project-card" data-category="desktop">
                     <div class="project-content">
-                        <span class="proj-cat">Desktop System</span>
-                        <h3>Employee Selection System</h3>
-                        <p>Automated recruitment scoring built with Java NetBeans and MySQL. Features high-precision logic for HR selection.</p>
-                        <div class="tags"><span>Java</span><span>MySQL</span><span>NetBeans</span></div>
-                    </div>
-                    <div class="project-view">
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200" alt="Selection System"></div>
-                            </div>
-                            <div class="swiper-button-next"></div><div class="swiper-button-prev"></div><div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card reverse" data-category="web">
-                    <div class="project-content">
-                        <span class="proj-cat">Web Application</span>
-                        <h3>BaksoApp (POS)</h3>
-                        <p>Specialized Point of Sale for local stalls. Real-time stock management and daily sales data visualization.</p>
-                        <div class="tags"><span>JavaScript</span><span>Firebase</span><span>Bootstrap</span></div>
-                    </div>
-                    <div class="project-view">
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200" alt="BaksoApp"></div>
-                            </div>
-                            <div class="swiper-button-next"></div><div class="swiper-button-prev"></div><div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card" data-category="web">
-                    <div class="project-content">
-                        <span class="proj-cat">Web Design</span>
-                        <h3>Bakery Delight</h3>
-                        <p>A luxury landing page for premium pastries. Focused on smooth transitions and warm typography.</p>
-                        <div class="tags"><span>HTML5</span><span>CSS3</span><span>GSAP</span></div>
-                    </div>
-                    <div class="project-view">
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1200" alt="Bakery"></div>
-                            </div>
-                            <div class="swiper-button-next"></div><div class="swiper-button-prev"></div><div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card reverse" data-category="web">
-                    <div class="project-content">
-                        <span class="proj-cat">Management System</span>
-                        <h3>Inventory Bakery</h3>
-                        <p>Backend management for bakery supplies. Tracking raw materials and recipe production costs.</p>
-                        <div class="tags"><span>PHP</span><span>Laravel</span><span>MySQL</span></div>
-                    </div>
-                    <div class="project-view">
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200" alt="Inventory"></div>
-                            </div>
-                            <div class="swiper-button-next"></div><div class="swiper-button-prev"></div><div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card" data-category="web">
-                    <div class="project-content">
-                        <span class="proj-cat">Education Platform</span>
-                        <h3>CodingCamp</h3>
-                        <p>E-learning portal with progress tracking and dark-themed interactive coding environment.</p>
-                        <div class="tags"><span>React.js</span><span>Node.js</span><span>Tailwind</span></div>
-                    </div>
-                    <div class="project-view">
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200" alt="CodingCamp"></div>
-                            </div>
-                            <div class="swiper-button-next"></div><div class="swiper-button-prev"></div><div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card reverse" data-category="desktop">
-                    <div class="project-content">
                         <span class="proj-cat">Desktop App</span>
-                        <h3>Desktop POS System</h3>
-                        <p>Full-featured cashier system with receipt generation and staff payroll management.</p>
+                        <h3>Laundry System</h3>
+                        <p>Management system for transactions and receipt generation.</p>
                         <div class="tags"><span>Java</span><span>MySQL</span><span>iReport</span></div>
                     </div>
                     <div class="project-view">
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1200" alt="Desktop POS"></div>
+                        <a href="https://www.youtube.com/watch?v=xjJhkyPAD4s" target="_blank">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="https://i.imgur.com/bGJNJhn.jpeg" alt="Laundry System"></div>
+                                </div>
                             </div>
-                            <div class="swiper-button-next"></div><div class="swiper-button-prev"></div><div class="swiper-pagination"></div>
-                        </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="desktop">
+                    <div class="project-content">
+                        <span class="proj-cat">Desktop App</span>
+                        <h3>Employee Selection</h3>
+                        <p>Recruitment scoring system built with Java NetBeans.</p>
+                        <div class="tags"><span>Java</span><span>MySQL</span><span>NetBeans</span></div>
+                    </div>
+                    <div class="project-view">
+                        <a href="https://www.youtube.com/watch?v=-vQKBgny8nc&t=353s" target="_blank">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="https://i.imgur.com/bGJNJhn.jpeg" alt="Selection System"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-content">
+                        <span class="proj-cat">Website</span>
+                        <h3>Bakso Restaurant</h3>
+                        <p>Modern landing page for food business.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    </div>
+                    <div class="project-view">
+                        <a href="https://github.com/ilhamrohulfajar/Bakso-Kaget-Rawajati" target="_blank">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="https://i.imgur.com/bGJNJhn.jpeg" alt="Bakso Web"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-content">
+                        <span class="proj-cat">Website</span>
+                        <h3>Bakery Catalog</h3>
+                        <p>Visual-driven catalog for artisan bakery.</p>
+                        <div class="tags"><span>WordPress</span><span>Elementor</span></div>
+                    </div>
+                    <div class="project-view">
+                        <a href="https://github.com/ilhamrohulfajar/Bakery-Ilham-Rohul-Fajar" target="_blank">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="https://i.imgur.com/bGJNJhn.jpeg" alt="Bakery Catalog"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-content">
+                        <span class="proj-cat">Web App</span>
+                        <h3>Bakery Inventory</h3>
+                        <p>Real-time stock management system.</p>
+                        <div class="tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span></div>
+                    </div>
+                    <div class="project-view">
+                        <a href="https://github.com/ilhamrohulfajar/Bakery-Inventory-Ilham-Rohul-Fajar" target="_blank">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="https://i.imgur.com/bGJNJhn.jpeg" alt="Bakery Inventory"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-content">
+                        <span class="proj-cat">Website</span>
+                        <h3>Flora Store</h3>
+                        <p>Clean botanical e-commerce concept.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    </div>
+                    <div class="project-view">
+                        <a href="https://ilhamrohulfajar.github.io/FloraStudio-Ilham-Rohul-Fajar/" target="_blank">
+                            <div class="swiper mySwiper">
+                                <div class="swiper- wrapper">
+                                    <div class="swiper-slide"><img src="https://i.imgur.com/bGJNJhn.jpeg" alt="Flora Store"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-content">
+                        <span class="proj-cat">Platform</span>
+                        <h3>CodingCamp Portal</h3>
+                        <p>Educational portal for coding bootcamps.</p>
+                        <div class="tags"><span>React</span><span>Tailwind</span></div>
+                    </div>
+                    <div class="project-view">
+                        <a href="https://github.com/ilhamrohulfajar/CodingCamp-300326-IlhamRohulFajar" target="_blank">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="https://i.imgur.com/bGJNJhn.jpeg" alt="CodingCamp"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <div class="about-image">
+                <div class="image-frame">
+                    <img src="https://i.imgur.com/bGJNJhn.jpeg" alt="Ilham Rohul Fajar">
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="proj-cat">Biography</span>
+                <h2>Ilham Rohul Fajar</h2>
+                <p>Saya adalah lulusan <b>Teknik Informatika (S1)</b> dari <b>Universitas Indraprasta PGRI (UNINDRA)</b> dengan <b>IPK 3.48</b>. Saya memiliki minat besar dalam pengembangan sistem desktop yang efisien serta pengelolaan database yang terstruktur.</p>
+                
+                <p>Didukung oleh pengalaman profesional di bidang <b>IT Support</b>, saya memiliki keahlian dalam manajemen inventaris perangkat, instalasi software, troubleshooting hardware, hingga migrasi data. Saya percaya bahwa teknologi harus fungsional sekaligus memiliki nilai estetika yang baik.</p>
+                <div class="skill-tags-container">
+                    <div class="tags">
+                        <span>Java (NetBeans)</span><span>MySQL & XAMPP</span><span>IT Support</span><span>Kiro AI</span><span>Web Development</span>
                     </div>
                 </div>
             </div>
@@ -183,8 +234,11 @@
                 <h4>ILHAM ROHUL FAJAR</h4>
                 <p>Informatics Engineer & Developer.</p>
             </div>
-            <div class="f-dedication">
-                <p>Dedicated to the memory of my beloved Mother. Bloom in every byte.</p>
+            <div class="footer-right">
+                <div class="f-dedication">
+                    <p>Dedicated to the memory of my beloved Mother. Bloom in every byte.</p>
+                </div>
+                <p style="font-size: 10px; opacity: 0.4; margin-top: 15px;">&copy; 2026 IRF. Built with Passion.</p>
             </div>
         </div>
     </footer>
